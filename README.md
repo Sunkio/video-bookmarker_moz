@@ -1,8 +1,11 @@
 # YT Bookmarker
 
-YT Bookmarker is a Chrome extension that enhances the experience of watching YouTube videos by allowing users to create and manage bookmarks with custom notes at specific timestamps in YouTube videos.
+YT Bookmarker is a Mozilla Firefox Add-on that enhances the experience of watching YouTube videos by allowing users to create and manage bookmarks with custom notes at specific timestamps in YouTube videos.
 
-You can find the [published extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/yt-bookmarker/docgcaajjlhikhllnlkfmffciiokggag/related) for installation. It's free to use and only uses local browser storage. No sign-up necessary.
+Please note, that this project is currently under development. I'm transitioning my existing Chrome extension into a Firefox add-on. I will update this text as soon as I have published the extension to Mozilla's store. It's gonna be free to use.
+
+For now, if you have Google Chrome or a similar Chromium-based browser installed (Brave, etc.), please check out the [published extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/yt-bookmarker/docgcaajjlhikhllnlkfmffciiokggag/related) for installation. It's free to use and only uses local browser storage. No sign-up necessary.
+<!--You can find the [published extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/yt-bookmarker/docgcaajjlhikhllnlkfmffciiokggag/related) for installation. It's free to use and only uses local browser storage. No sign-up necessary.-->
 
 ![YT Bookmarker - No Screenshots](./img/yt-bookmarker_3.png)
 *No Bookmarks*
@@ -39,7 +42,9 @@ Follow these steps to set up MovieWhiz on your local machine.
 
 ## Prerequisites
 
-- Google Chrome Browser
+- Mozilla Firefox browser (or a similar, Firefox-based browser such as Floorp)
+<!--
+ToDo: Update Installation Process
 
 ## Installation
 1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) and then clone this repository:
@@ -47,13 +52,13 @@ Follow these steps to set up MovieWhiz on your local machine.
 ```
 git clone https://github.com/<your username>/video-bookmarker.git
 ```
-2. Open Google Chrome.
-3. Go to `chrome://extensions/`.
+2. Open Mozilla Firefox.
+3. Go to `about:addons`.
 4. Enable "Developer mode" in the top-right corner.
 5. Click "Load unpacked extension" and choose the folder where you saved the cloned repository.
 
 The extension should now appear in your Chrome toolbar.
-
+-->
 ## Usage
 
 1. Open a YouTube video.
@@ -97,4 +102,4 @@ This project is open-source and available under the [MIT License](./LICENSE.md).
 
 ## Support
 
-If you have any questions or need help getting started, please open an issue in the repository or contact me on Twitter: @tanja_codes
+If you have any questions or need help getting started, please open an issue in the repository or contact me via email: <a href="mailto:hello@tanjaschmidt.com">hello@tanjaschmidt.com</a>
