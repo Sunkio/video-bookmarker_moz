@@ -33,5 +33,10 @@
       "default_title": "YT Bookmarker",
       "default_popup": "popup.html"
     },
-    "manifest_version": 3
+    "manifest_version": 3,
+      "browser_specific_settings": {
+      "gecko": {
+        "id": "ytbookmarker@tanjaschmidt.com"
+      }
+    }
 }
